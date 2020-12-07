@@ -1,0 +1,22 @@
+extends ../layout
+
+block content
+    .container
+        .row
+            .col-12
+                a(href='/books') < Books
+            .col-12
+                form(id=page, method='POST')
+                    input(type='hidden', name='uuid', id='uuid', value=book.uuid)
+                    .form-group
+                        label Title
+                        input.form-control(name='title', id='title', placeholder='Title', value=book.title)
+                    .form-group
+                        label Author
+                        input.form-control(name='author', id='author', placeholder='Author', value=book.author)
+                    if book.uuid
+                        button.btn.btn-primary(type='submit', name='action', value='new') New
+                        button.btn.btn-secondary(type='submit', name='action', value='update') Update
+                        button.btn.btn-danger(type='submit', name='action', value='delete') Delete
+                    else
+                        button.btn.btn-primary(type='submit', name='action', value='save') Save

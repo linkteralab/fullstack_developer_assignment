@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+
+a.newBtn{
+  border: 1px solid #e5e5e5;
+  padding: 6px 20px;
+  display: inline-block;
+  background-color: #00B7FF;
+  color:#fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: all .2s ease;
+}
+
+a.newBtn:hover{
+  text-decoration: none;
+  color: #fff;
+  background-color: #028dc4;
+}
+
+.btn{
+  margin-right: 15px;
+}
+
+table thead tr th {
+  border-top: none !important;
+  border-bottom: 1px solid #e5e5e5 !important;
+  background-color: #e5e5e5;
+  padding: 10px 15px !important;
+}
+table tbody tr td{
+  border: 1px solid #e5e5e5 !important;
+}
+form{
+  margin-top: 30px;
+}

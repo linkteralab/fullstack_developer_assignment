@@ -1,0 +1,30 @@
+extends ../layout
+
+block content
+    .container
+        .row
+            .col-12.text-center
+                h1= header
+            .col-4
+                a.newBtn(href='/books/new') Add New
+            .col-12
+                table.table
+                    thead
+                        tr
+                            th Title
+                            th Author
+                            th Action
+                    if books.length > 0
+                        tbody
+                            each book in books
+                                tr
+                                    td= book.title
+                                    td= book.author
+                                    td
+                                        a(href='/books/' + book.uuid) Detail
+                    else
+                        tbody
+                            tr
+                                td -
+                                td -
+                                td -
