@@ -7,7 +7,7 @@ When completing this assignment, you are allowed to use the newest Java/Spring a
 
 * Knowledge or experience on Java and Spring Framework.
 * Knowledge or experience on Node JS / Express Js Framework.
-* Knowledge or experience on Front End development tools such as HTML,CSS,Bootstrap.
+* Knowledge or experience on Front End development tools such as HTML, CSS, Bootstrap.
 * Familarity with Git for your preferred OS, IDE or any development tool that you prefer.
 
 ## What you need to do
@@ -26,8 +26,11 @@ Our must (or nice to have) features that you need to impmlement for this assignm
 
 ## We care about
 
-1) Writing formatted and highly readable code.
-2) Displaying error and action messages to the user in appropriate ways.
-3) Writing error-free code from SonarQube etc. applications.
-4) Writing unit tests.
-5) Writing the comment / explanation lines if needed. 
+* Writing formatted and highly readable code.
+* Displaying error and action messages to the user in appropriate ways.
+* Writing error-free code from SonarQube etc. applications and writing unit tests - if applicable. 
+* Writing the comment / explanation lines if needed. 
+
+Complete the assignment with as much effort as you see fit. Don't hesitate to contact us for anything.
+
+Good luck and happy coding.
